@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="Add" method="post">
+         
+        <!-- Create an element with mandatory name attribute,
+        so that data can be transfer to the servlet using getParameter()-->
+        <p>B code:</p>
+        <input type="text" name="business_code"/>
+        <br/>
+        <p>C num:</p> 
+        <input type="text" name="cust_number"/>
+        <br/>
+        <p>C date:</p> 
+        <input type="text" name="clear_date"/>
+        
+        <p>B year:</p>
+        <input type="text" name="buisness_year"/>
+        <br/>
+        <p>D id:</p> 
+        <input type="text" name="doc_id"/>
+        <br/>
+        <p>P date:</p> 
+        <input type="text" name="posting_date"/>
+        
+        <p>D C date:</p>
+        <input type="text" name="document_create_date"/>
+        <br/>
+        <p>D I date:</p> 
+        <input type="text" name="due_in_date"/>
+        <br/>
+        <p>I curr:</p> 
+        <input type="text" name="invoice_currency"/>
+        
+        <p>D type:</p>
+        <input type="text" name="document_type"/>
+        <br/>
+        <p>P id:</p> 
+        <input type="text" name="posting_id"/>
+        <br/>
+        <p>T O amount:</p> 
+        <input type="text" name="total_open_amount"/>
+        
+        <p>B C date:</p>
+        <input type="text" name="baseline_create_date"/>
+        <br/>
+        <p>C P terms:</p> 
+        <input type="text" name="cust_payment_terms"/>
+        <br/>
+        <p>I id:</p> 
+        <input type="text" name="invoice_id"/>
+        <br/><br/><br/>
+        <input type="submit"/>
+    </form>
+</body>
+</html>
