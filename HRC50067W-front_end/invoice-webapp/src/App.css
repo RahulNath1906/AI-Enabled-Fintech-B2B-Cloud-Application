@@ -1,0 +1,151 @@
+body {
+  background-color: #2f4655f5;
+}
+
+h3 {
+  color: white;
+  padding-left: 1.2rem;
+  font-size: 1.5rem;
+}
+
+.Header {
+  display: flex;
+  padding: 2vh 1vw;
+  color: white;
+}
+
+.Header .hrcLogo {
+  position: absolute;
+  left: 40.2%;
+  transform: scaleX(50%, 50%);
+}
+
+.Header .ABClogo img {
+  height: 3.2rem;
+}
+.Header .hrcLogo img {
+  height: 4.5rem;
+}
+
+.MuiButtonBase-root.MuiButton-root.MuiButton-outlined:hover {
+  background-color: rgb(48, 153, 219);
+}
+
+.MuiInputBase-input.MuiOutlinedInput-input.MuiInputBase-inputTypeSearch {
+  background-color: white;
+  border-radius: 10px;
+}
+.gridHeader {
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+}
+
+.MuiButtonBase-root.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPrimary {
+  color: white;
+}
+
+.MuiDataGrid-main,
+.MuiDataGrid-footerContainer,
+.MuiToolbar-root.MuiToolbar-regular.MuiTablePagination-toolbar.MuiToolbar-gutters {
+  color: white;
+}
+
+.predict_btn,
+.analytics_btn,
+.advance_search_btn {
+  width: 15%;
+}
+
+.predict_btn Button {
+  background-color: rgb(48, 153, 219);
+}
+
+.refresh_btn {
+  padding-left: 0.3rem;
+  padding-right: 1rem;
+}
+
+.search_fld {
+  width: 20%;
+}
+.search_fld .MuiFormControl-root.MuiTextField-root {
+  width: 100%;
+}
+.add_btn {
+  padding-left: 2rem;
+  width: 10%;
+}
+
+.edit_btn {
+  width: 10%;
+}
+
+.MuiButtonBase-root.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPrimary.Mui-disabled.Mui-disabled {
+  width: 100%;
+}
+
+.delete_btn {
+  width: 10%;
+}
+
+.MuiButtonBase-root.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPrimary {
+  width: 100%;
+  border: 1px solid rgb(48, 153, 219);
+}
+
+.MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-formControl {
+  background-color: white;
+}
+
+.MuiIconButton-label {
+  color: white;
+}
+
+.advanceSearch_1,
+.advanceSearch_2 {
+  display: flex;
+  padding-bottom: 2rem;
+}
+
+.advanceSearch_dueDate,
+.advanceSearch_currency {
+  padding-left: 1rem;
+}
+
+.from_clear_date,
+.advanceSearch_1 .advanceSearch_dueDate .from_due_in_date,
+.advanceSearch_2 .advanceSearch_baselinecreateDate .from_baseline_create_date {
+  padding-bottom: 1.5rem;
+}
+.advanceSearch_clearDate,
+.advanceSearch_currency,
+.advanceSearch_baselinecreateDate,
+.advanceSearch_dueDate {
+  width: 50%;
+}
+
+.addForm_1,
+.addForm_2,
+.addForm_3,
+.addForm_4 {
+  display: flex;
+  padding-bottom: 2rem;
+}
+
+.addForm_3 .postingid_text {
+  padding-right: 0.5rem;
+}
+
+.addForm_4 .base_create_date_text {
+  width: 24.5%;
+}
+
+.advanceSearch_1,
+.advanceSearch_2 {
+  display: flex;
+  padding-bottom: 2rem;
+}
+
+.footer span {
+  text-decoration: underline;
+}
